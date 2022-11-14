@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Eczar');
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+body{
+    background-color: rgb(30, 25, 33);
+    color: white;
+}
+.main {
+    max-width: 1000px;
+    min-width: 500px;
+    margin: auto;
+}
+
+.headerLayout {
+    display: grid;
+    grid-template-columns: 80px auto;
+    align-items: center;
+    padding-bottom: 10px;
+    border: 4px double lightgray;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.headerLayout img {
+    width: 60px;
+    margin-left: 15px;
+}
+
+.menuLayout {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.menuLayout a {
+    min-width: 80px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 4px 20px 4px 20px;
+    /* top right bottom left*/
+}
+
+.menuLayout a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.menuLayout a:active {
+    background-color: rgb(255, 255, 255);
+}
+
+.menuLayout .selected {
+    background-color: rgb(145, 84, 179);
+}
+
+.content {
+    padding: 20px;
+    font-family: "Eczar";
+}
+
+.content img {
+    width: 100%;
+}
+
+.content p {
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: "Inter";
+}
+.auteur{
+    display: grid;
+    grid-template-columns: 80px auto;
+    align-items: center;
+    padding-bottom: 10px;
+    border: 4px double lightgray;
+    border-radius: 0px 20px 0px 20px;
+    padding: 10px;
+}
+.auteur img{
+    width: 200px;
+    border-radius: 50%;
+}
